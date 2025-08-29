@@ -8,12 +8,19 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, EmailStr
 from typing import Optional
 
-# Konfigurasi Espay
-ESPAY_PARTNER_ID = "SGWIKHSANPARFUM"  # Merchant Code dari Espay
-ESPAY_MERCHANT_NAME = "IkhsanParfum"  # Merchant Name
-ESPAY_API_KEY = "e1c30411e2c93716b23c83cc7de517e3"  # API Key untuk Generate Espay Embedded Script
-ESPAY_SIGNATURE_KEY = "wp48y4qm9ur61495"  # Signature key
-ESPAY_PASSWORD = "UFLDQRZQ"  # Password
+# Konfigurasi Espay Seller
+ESPAY_PARTNER_ID = "SGWIKHSANPARFUMI"  # Merchant Code dari Espay
+ESPAY_MERCHANT_NAME = "IkhsanParfumi"  # Merchant Name
+ESPAY_API_KEY = "43600724b0297c71e508d11e39a60a3b"  # API Key untuk Generate Espay Embedded Script
+ESPAY_SIGNATURE_KEY = "s8rteeif9nert8og"  # Signature key
+ESPAY_PASSWORD = "HPAARIHLEA"  # Password
+
+# Konfigurasi Espay Buyer
+ESPAY_PARTNER_ID = "SGWIKHSANPARFUMIO"  # Merchant Code dari Espay
+ESPAY_MERCHANT_NAME = "IkhsanParfumio"  # Merchant Name
+ESPAY_API_KEY = "5ce3c9c6859c9651c3821f2bce27d4ae"  # API Key untuk Generate Espay Embedded Script
+ESPAY_SIGNATURE_KEY = "ikl9zkjuqgb15cvz"  # Signature key
+ESPAY_PASSWORD = "CSEILACHAL"  # Password
 
 # URL untuk berbagai service
 ESPAY_SANDBOX_URL = "https://sandbox-api.espay.id/apimerchant/v1.0/debit/payment-host-to-host"
