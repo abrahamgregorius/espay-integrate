@@ -16,11 +16,11 @@ ESPAY_SIGNATURE_KEY = "s8rteeif9nert8og"  # Signature key
 ESPAY_PASSWORD = "HPAARIHLEA"  # Password
 
 # Konfigurasi Espay Buyer
-ESPAY_PARTNER_ID = "SGWIKHSANPARFUMIO"  # Merchant Code dari Espay
-ESPAY_MERCHANT_NAME = "IkhsanParfumio"  # Merchant Name
-ESPAY_API_KEY = "5ce3c9c6859c9651c3821f2bce27d4ae"  # API Key untuk Generate Espay Embedded Script
-ESPAY_SIGNATURE_KEY = "ikl9zkjuqgb15cvz"  # Signature key
-ESPAY_PASSWORD = "CSEILACHAL"  # Password
+# ESPAY_PARTNER_ID = "SGWIKHSANPARFUMIO"  # Merchant Code dari Espay
+# ESPAY_MERCHANT_NAME = "IkhsanParfumio"  # Merchant Name
+# ESPAY_API_KEY = "5ce3c9c6859c9651c3821f2bce27d4ae"  # API Key untuk Generate Espay Embedded Script
+# ESPAY_SIGNATURE_KEY = "ikl9zkjuqgb15cvz"  # Signature key
+# ESPAY_PASSWORD = "CSEILACHAL"  # Password
 
 # URL untuk berbagai service
 ESPAY_SANDBOX_URL = "https://sandbox-api.espay.id/apimerchant/v1.0/debit/payment-host-to-host"
